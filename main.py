@@ -1,7 +1,7 @@
 import subprocess
 import os
 
-REPO_DIR = "git-test"
+REPO_DIR = "../git-test"
 
 def update_code():
     cwd = os.getcwd()
@@ -20,3 +20,4 @@ def update_code():
     os.chdir(cwd)
 
 update_code()
+print("Updates pov lol")
